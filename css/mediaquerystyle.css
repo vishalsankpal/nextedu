@@ -15,7 +15,7 @@
         padding-left: 0 !important;
         padding-right: 1px !important;
     }
-
+  
     .resume {
         width: 100%;
         background-color: #49468e;
@@ -23,67 +23,67 @@
         font-size: 18px;
         border: 1px solid #49468e;
     }
-
+  
     .psudo-name {
         font-size: 15px;
     }
-
+  
     .table td,
     .table th {
         overflow: hidden;
     }
-
+  
     .rubric {
         font-size: 16px;
     }
-
+  
     .learning-object {
         font-size: 14px;
         overflow: hidden;
     }
-
+  
     .learning-date {
         font-size: 14px;
     }
-
+  
     .psudo-date,
     .psudo-no {
         font-size: 15px;
     }
-
+  
     .resume {
         font-size: 15px !important;
-
+  
     }
-
+  
     .body-part .panel .i-btn .lobe-lite {
         margin: 5px;
     }
-
+  
     .lobe-premium {
         margin: 5px;
     }
-
+  
     .lobe-custom {
         margin: 5px;
     }
-
+  
     .instruction {
         font-size: 18px;
     }
-
+  
     .assigning-text {
         font-size: 16px;
     }
-
+  
     .next {
         font-size: 16px;
     }
-
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+  
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
     nav .top-bar .heading {
         font-size: 18px;
         color: white;
@@ -102,10 +102,10 @@
         font-size: 18px;
         border: 1px solid #49468e;
     }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) {
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (max-width: 768px) {
     .resume {
         width: 100%;
         background-color: #49468e;
@@ -113,15 +113,15 @@
         font-size: 18px;
         border: 1px solid #49468e;
     }
-
+  
     td,
     th {
         text-align: center;
     }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (max-width: 992px) {
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (max-width: 992px) {
     .left-side-panel {
         display: none;
         z-index: 9;
@@ -133,7 +133,7 @@
         left: 0;
         background-color: #49468e;
     }
-
+  
     nav .top-bar {
         width: calc(100% - 50px);
         position: fixed;
@@ -141,14 +141,14 @@
         background-color: #49468e;
         height: 50px;
     }
-
+  
     .main {
         position: absolute;
         width: 100%;
         top: 50px;
         overflow-y: scroll;
     }
-
+  
     .resume {
         width: 100%;
         background-color: #49468e;
@@ -156,27 +156,41 @@
         font-size: 18px;
         border: 1px solid #49468e;
     }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+  }
+  @media only screen and (min-width: 993px) {
     .left-side-panel {
-        display: block;
-        /* width:17.6%; */
+        display: block !important;
         width: 270px;
         height: 100vh;
         position: fixed;
         left: 0;
         background-color: #49468e;
     }
-
     .toggle-btn {
-        display: inline-block;
+        display: none;
         position: absolute;
         background-color: #49468e;
         cursor: pointer;
     }
-
+  }
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .left-side-panel {
+        display: block;
+        width: 270px;
+        height: 100vh;
+        position: fixed;
+        left: 0;
+        background-color: #49468e;
+    }
+  
+    .toggle-btn {
+        display: none;
+        position: absolute;
+        background-color: #49468e;
+        cursor: pointer;
+    }
+  
     .resume {
         width: 100%;
         background-color: #49468e;
@@ -184,4 +198,4 @@
         font-size: 18px;
         border: 1px solid #49468e;
     }
-}
+  }
