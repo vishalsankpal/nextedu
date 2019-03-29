@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="./css/mediaquerystyle.css">
+    <title>Next Education</title>
+</head>
+
+<body>
+    <div class="preloder"></div>
+    <div class="toggle-btn" id="menu">
+        <img src="https://img.icons8.com/cotton/50/000000/menu.png" id="ham">
+        <img src="https://img.icons8.com/cotton/50/000000/delete-sign.png">
+    </div>
+    <aside class="left-side-panel">
+        <div class="profile-setup">
+            <div class="profile-photo">
+                <img src="./images/profile.png" alt="profile photo">
+            </div>
+            <h5 class="gen-dash">GENRATOR DASHBORARD</h5>
+            <div class="action">
+                <input type="button" class="action-btn-view-result" value="View Result" name="view_result">
+                <br>
+                <input type="button" class="action-btn-settings" value="Settings" name="settings">
+                <br>
+                <input type="button" class="action-btn-logout" value="Logout" name="logout">
+            </div>
+        </div>
+
+    </aside>
+    <nav>
+        <div class="top-bar">
+            <h3 class="heading">Learning Object Evaluation Tool</h3>
+        </div>
+    </nav>
+    <main class="main">
+        <div class="body-part">
+            <button class="accordion">GENRATE NEW RUBRIC</button>
+            <div class="panel">
+                <p class="instruction-text">Choose which version of lobe you want to use.</p>
+                <div class="i-btn">
+                    <button class="btn lobe-lite">LOBE LITE <i class="fas fa-info-circle" id="tooltip1"></i></button>
+
+                    <button class="btn lobe-premium">LOBE PREMIMUM <i class="fas fa-info-circle"></i></button>
+                    <button class="btn lobe-custom">LOBE CUSTOM <i class="fas fa-info-circle"></i></button>
+                </div>
+                <br>
+
+            </div>
+            <div class="line"></div>
+            <button class="accordion">INCOMPLETE RUBRIC GENRATED</button>
+            <div class="panel">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th scope="row" class="psudo-no">1</th>
+                            <td class="psudo-name">BOBELITE_9876</td>
+                            <td class="psudo-date">Date-9-10-2018</td>
+                            <td>
+                                <div class="container">
+                                    <span>25%</span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                                            aria-valuemin="0" aria-valuemax="100" style="width:25%">
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="resume-td"><button class="resume">RESUME</button></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="psudo-no">2</th>
+                            <td class="psudo-name">LOBECUSTOME_1050</td>
+                            <td class="psudo-date">Date-19-10-2018</td>
+                            <td>
+                                <div class="container">
+                                    <span>50%</span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                                            aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="resume-td"><button class="resume">RESUME</button></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="psudo-no">3</th>
+                            <td class="psudo-name">LOBIPREMIMUM_1542</td>
+                            <td class="psudo-date">Date-19-10-2018</td>
+                            <td>
+                                <div class="container">
+                                    <span>30%</span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                                            aria-valuemin="0" aria-valuemax="100" style="width:30%">
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="resume-td"><button class="resume">RESUME</button></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="psudo-no">4</th>
+                            <td class="psudo-name">LOBILITE_9856</td>
+                            <td class="psudo-date">Date-29-10-2018</td>
+                            <td>
+                                <div class="container">
+                                    <span>60%</span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                                            aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="resume-td"><button class="resume">RESUME</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="line"></div>
+            <button class="accordion">COMLETE GENERATED RUBRIC</button>
+            <div class="panel">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th scope="row" class="psudo-no">1</th>
+                            <td class="psudo-name">BOBELITE_9876</td>
+                            <td class="psudo-date">Date-9-10-2018</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="psudo-no">2</th>
+                            <td class="psudo-name">LOBECUSTOME_1050</td>
+                            <td class="psudo-date">Date-19-10-2018</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="psudo-no">3</th>
+                            <td class="psudo-name">LOBIPREMIMUM_1542</td>
+                            <td class="psudo-date">Date-19-10-2018</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="psudo-no">4</th>
+                            <td class="psudo-name">LOBILITE_9856</td>
+                            <td class="psudo-date">Date-29-10-2018</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="line"></div>
+            <button class="accordion">TRACK EVALUATION</button>
+            <div class="panel">
+                <table>
+                    <tr>
+                        <th>Rubric Code</th>
+                        <th>Learning Object Name</th>
+                        <th>Date</th>
+                        <th>status</th>
+                    </tr>
+                    <tr>
+                        <td rowspan="3" class="rubric">Rubric_101</th>
+                        <td class="learning-object">Learning Object Name - 1</td>
+                        <td class="learning-date">19-11-2018</td>
+                        <td>
+                            <div class="container">
+                                <span>60%</span>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                                        aria-valuemax="100" style="width:60%">
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="learning-object">Learning Object Name - 2</td>
+                        <td class="learning-date">19-11-2018</td>
+                        <td>
+                            <div class="container">
+                                <span>60%</span>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                                        aria-valuemax="100" style="width:60%">
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="learning-object">Learning Object Name - 3</td>
+                        <td class="learning-date">19-11-2018</td>
+                        <td>
+                            <div class="container">
+                                <span>60%</span>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                                        aria-valuemax="100" style="width:60%">
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3" class="rubric">Rubric_102</th>
+                        <td class="learning-object">Learning Object Name - 1</td>
+                        <td class="learning-date">19-11-2018</td>
+                        <td>
+                            <div class="container">
+                                <span>60%</span>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                                        aria-valuemax="100" style="width:60%">
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="learning-object">Learning Object Name - 2</td>
+                        <td class="learning-date">19-11-2018</td>
+                        <td>
+                            <span>100% COMPLETED</span>
+                            <button class="view-result"><i class="fas fa-eye"></i> View Result</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="learning-object">Learning Object Name - 3</td>
+                        <td class="learning-date">19-11-2018</td>
+                        <td>
+                            <div class="container">
+                                <span>60%</span>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                                        aria-valuemax="100" style="width:60%">
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="line"></div>
+            <button class="accordion">ASSIGNING THE RUBRIC</button>
+            <div class="panel">
+                <h4><strong class="instruction">Instruction:</strong></h4>
+                <ul>
+                    <li>
+                        <p class="assigning-text">The evaluator needs to register in the LOBE tool to access the rubic
+                        </p>
+                    </li>
+                    <li>
+                        <p class="assigning-text">Fill up the message box and mention the code in your message .
+                            <br>This code will enable your evaluator to access the correct rubic
+                        </p>
+                    </li>
+                </ul>
+                <button class="next">NEXT</button>
+                <br>
+                <br>
+            </div>
+            <div class="line"></div>
+            <button class="accordion">CHANGE YOUR ROLE TO REVIEWER</button>
+            <div class="panel">
+                <h4 class="assigning-text"><strong class="instruction">Instruction:</strong>To change the role from
+                    <span style="font-weight:900;">GREATER TO EVALUATOR</span>, goto <span
+                        style="font-weight:900;">SETTINGS</span></h4>
+            </div>
+        </div>
+
+    </main>
+    <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
